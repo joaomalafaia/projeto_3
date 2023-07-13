@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">    <title>Futuro Refeirório</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-1" id="cabecalho">
+        <div class="container">
+            <h1 class="section-title display-3 m-0">FUTURO REFEITÓRIO</h1>
+            <button class="navbar-toggler mb-2" data-bs-toggle="collapse" data-bs-target="#menu-superior">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-superior">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fs-5">
+                        <a class="nav-link active" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a h class="nav-link" href="#eventos">Eventos</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a hr class="nav-link" href="#cardapio">Cardápio</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a hr class="nav-link" href="#contato">Reservas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <div class="carousel">
+        <div id="carousel-restaurante" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="images/slide/ambiente+salao.jpeg" alt="futuro refeitorio salão" class="d-block w-100"></img>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="images/slide/cfe.jpg" alt="futuro refeitorio café" class="d-block w-100"></img>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="images/slide/confeitaria.jpg" alt="futuro refeitorio confeitaria" class="d-block w-100"></img>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="images/slide/bar.jpeg" alt="futuro refeitorio bar" class="d-block w-100"></img>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-restaurante" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-restaurante" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-restaurante" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-restaurante" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+    </div>
+        <section id="sobre" class="p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-end">
+                        <h2 class="section-title fw-bold text-colored mb-3">NOSSA HISTÓRIA</h2>
+                        <p class="texto-sobre">
+                            O Futuro Refeitório é Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio doloremque asperiores, aliquid temporibus ab reprehenderit illum adipisci aperiam maxime fuga quibusdam nemo? Beatae ullam id reiciendis veritatis error! Molestias, commodi?
+                        </p>
+                        <p class="texto-sobre">
+                            Nossa comida é preparada por Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                        <p class="texto-sobre">
+                            <strong class="text-colored">Café, brunch, almoço, lanche ou janta.</strong> Nossas portas estão sempre abertas e o café quente para te receber.
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/area-comum2.png" alt="sofás do futuro refeitório" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <hr class="border border-2 opacity-50">
+                    <h2 class="section-title fw-bold text-colored mb-3 text-center">CELEBRE AQUI</h2>
+                    <hr class="border border-2 opacity-50">
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/festa infantil.jpeg" class="d-block w-100" alt="festa infntil">
+                        <h3 class="section-title fs-3 pt-2 text-colored">Aniversários</h3>
+                        <p>Não importa a idade, o Futuro Refeitório é um espaço para todos celebrarem a vida. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non numquam obcaecati illo, iste harum in ex.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/casamento.jpg" class="d-block w-100" alt="">
+                        <h3 class="section-title fs-3 pt-2 text-colored">Recepções de casamento</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sint hic ullam tempora repellendus facilis, molestias, error nam illum culpa eos! Quia, in? Quisquam aliquid nulla animi, at dicta cumque.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/eventos.jpeg" class="d-block w-100" alt="">
+                        <h3 class="section-title fs-3 pt-2 text-colored">E muito mais...</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sint hic ullam tempora repellendus facilis, molestias, error nam illum culpa eos! Quia, in? Quisquam aliquid nulla animi, at dicta cumque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pb-5">
+            <div class="container">
+                <div class="row mt">
+                    <hr class="border border-2 opacity-50">
+                    <h2 class="section-title fw-bold text-colored mb-3 text-center">CARDÁPIO</h2>
+                    <hr class="border border-2 opacity-50">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <nav class="nav nav-pills d-flex nav-cardapio justify-content-around mt-3">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cafe-da-manha" class="nav-link fw-bold text-center fs-5 text-colored active">Café da Manhã</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#brunch" class="nav-link fw-bold text-center fs-5 text-colored">Brunch</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#almoco-e-janta" class="nav-link fw-bold text-center fs-5 text-colored">Almoço e Janta</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#drinks" class="nav-link fw-bold text-center fs-5 text-colored">Drinks</button>
+                        </nav>
+                    </div>
+                    <div class="row">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cafe-da-manha">
+                                <div class="row">
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/café da manhã/café.jpg" alt="xícara de café">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Cafezinho preto</h5>
+                                        <p>Café de plantação e torra próprias. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/café da manhã/croissant.jpg" alt="pão de chocolate">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Pain au chocolat</h5>
+                                        <p>Feito com a tradicional receita francesa, deliciosa massa de croissant com recheio de chocolate meio amargo.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/café da manhã/lanche.jpg" alt="avocado toast">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Avocado toast</h5>
+                                        <p>Avocado fatiado no pão de centeio de fermentação própria, acompanha pasta de ovos, crumble de amêndoas e azeite.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/café da manhã/padaria.jpg" alt="pães">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Massa folhada</h5>
+                                        <p>Peça nossas massas folhadas feitas na hora. Uma porção de 3 acompanha manteiga, geleia e fatias de queijo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="brunch">
+                                <div class="row">
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/brunch/almoço-3.jpg" alt="sanduíche">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Sanduíche de cogumelos</h5>
+                                        <p>Sanduíche de cogumelos caramelizados com rúcula e molho ranch. Acompanha picles de cebola e abobrinha.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/brunch/almoço.jpg" alt="salada de ovos">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Salada de ovos</h5>
+                                        <p>Salada de maionese caseira com batata e cenoura. Acompanha um ovo cozido à moda da casa e torrada.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/brunch/lanche2.jpg" alt="sanduíche">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Pão e ovo</h5>
+                                        <p>Nossa releitura do famoso pão com ovo. Acompanha salada verde refrescante e picles de cenoura.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/brunch/almoço-2.jpg" alt="ovos e bacon">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Americano</h5>
+                                        <p>Ovos mexidos cremosos, bacon frito no ponto certo com uma fatia de pão torradocom manteiga derretinda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="almoco-e-janta">
+                                <div class="row">
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/almoço jantar/_DSF1620.jpg" alt="sanduíche">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Calzone</h5>
+                                        <p>Massa recheada com muçarela de búfala e manjericão. Finalizada com crumble de castanhas assadas.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/almoço jantar/card1.png" alt="salada mista">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Salada Mista</h5>
+                                        <p>Salada de avocado, pepino, picles de couve flor e cenoura. Vem com arroz integral e molho de amendoim.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/almoço jantar/combos.jpg" alt="salada e carne">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Milanesa</h5>
+                                        <p>Bife à milanesa feito na farinha panco. Acompanha tigela de macarrão de pupunha colorido.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/almoço jantar/waffle.jpg" alt="waffles salgados">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Waffle salgado</h5>
+                                        <p>Waffles salgados com creme de alho, cebola e patês diversos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="drinks">
+                                <div class="row">
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/drinks/cosmopolitan.jpg" alt="cosmopolitan">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Cosmopolitan</h5>
+                                        <p>Consultar disponibilidade e preço de marcas com a nossa equipe.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/drinks/aperol spritz.jpg" alt="aperol">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Aperol Spritz</h5>
+                                        <p>Consultar disponibilidade e preço de marcas com a nossa equipe.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/drinks/martini.jpg" alt="martini">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Martini</h5>
+                                        <p>Consultar disponibilidade e preço de marcas com a nossa equipe.</p>
+                                    </div>
+                                    <div class="col-md-3 pt-5">
+                                        <img class="w-100" src="images/drinks/negroni.jpg" alt="negroni">
+                                        <h5 class="fs-4 text-colored fw-bold mt-2">Negroni</h5>
+                                        <p>Consultar disponibilidade e preço de marcas com a nossa equipe.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <hr class="border border-2 opacity-50">
+                    <h2 class="section-title fw-bold text-colored mb-3 text-center">RESERVAS</h2>
+                    <hr class="border border-2 opacity-50">
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="ocasiao" class="form-label fw-bold text-colored">Quantas pessoas?</label>
+                                <select class="form-select" id="ocasiao" required>
+                                    <option selected>Selecione</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 ou mais</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="data" class="form-label fw-bold text-colored">Data</label>
+                                <input type="date" id="data" class="form-control" required>
+                            </div>
+                            <button type="submit" class="fs-5 btn btn-form">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-2 text-colored">Redes sociais</h3>
+                            <ul class="social-links d-flex">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-2 text-colored">Endereço</h3>
+                            <address>
+                                Rua Teste Exemplo, nº55, Bairro Bootstrap - São Paulo - SP
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-md-12 text-center pb-2">
+                    <i class="bi bi-cup-hot fs-1 text-colored"></i>
+                    <i class="bi bi-cup-hot fs-1 text-colored me-3 ms-3"></i>
+                    <i class="bi bi-cup-hot fs-1 text-colored"></i>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container pt-3 pb-1">
+                <p>Projeto com fins educativos e para o treinamento de habilidades com front-end. Sem fins lucrativos.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+.navbar,
+        .btn-form,
+        .footer {
+            background-color: #637563;
+            color:#edf7dd;
+            font-family: 'Fira Sans Condensed', sans-serif;
+        }
+
+        #cabecalho nav .nav-link.active {
+            background-color: #edf7dd;
+            color: #637563;
+        }
+
+        #cabecalho nav .nav-link {
+            color: #edf7dd;
+        }
+        
+        .section-title {
+            font-family: 'Fira Sans Condensed', sans-serif;
+            font-weight: 500;
+        }
+
+        section {
+            background-color: #edf7dd;
+        }
+
+        #cardapio nav .nav-link.active:hover {
+            color: #edf7dd;
+        }
+
+        .text-colored,
+        hr,
+        #cardapio nav .nav-link:hover {
+            color: #637563;
+        }
+
+        h2 {
+            font-size: 3em;
+        }
+
+        .nav-cardapio .nav-link.active,
+        .btn-form:hover {
+            background-color: #637563;
+            color: #edf7dd;
+        }
+
+        .social-links {
+            list-style: none;
+        }
+
+        .texto-sobre {
+            font-size: 1.3em;
+        }
+
+        @media screen and (max-width: 767px) {
+            .carousel-item img {
+                height: 280px;
+                max-width: none;
+            }
+
+            .navbar h1 {
+                font-size: 30px;
+            }
+
+            .nav-bar h1,
+            .navbar button {
+                margin: 10px 0;
+            }
+            
+            #sobre h2, 
+            #sobre p {
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 28px;
+            } 
+
+            .texto-sobre {
+                font-size: 1em;
+            }
+}
