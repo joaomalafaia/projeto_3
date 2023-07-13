@@ -49,7 +49,7 @@
         }
 
         .texto-sobre {
-            font-size: 1.3em;
+            font-size: 20px;
         }
 
         @media screen and (max-width: 767px) {
